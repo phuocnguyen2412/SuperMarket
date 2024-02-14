@@ -30,7 +30,7 @@ export default function Navbar(props) {
                 <li className="nav-item">
                     <NavLink
                         className={({ isActive }) => (isActive ? "active" : "")}
-                        to="/about"
+                        to="/SuperMarket/about"
                     >
                         About us
                     </NavLink>
@@ -38,14 +38,14 @@ export default function Navbar(props) {
                 <li className="nav-item">
                     <NavLink
                         className={({ isActive }) => (isActive ? "active" : "")}
-                        to="/products"
+                        to="/SuperMarket/products"
                     >
                         Products
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to="/cart"
+                        to="/SuperMarket/cart"
                         className="nav-item nav-cart btn btn-accent"
                     >
                         Cart ({totalCart})

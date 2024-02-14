@@ -9,7 +9,7 @@ export default function Home() {
                     use app, and get your products delivered straight to your
                     doorstep.
                 </p>
-                <Link to="/products" className="btn btn-default">
+                <Link to="/SuperMarket/products" className="btn btn-default">
                     Start shopping
                 </Link>
             </div>

@@ -94,13 +94,19 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route path="/SuperMarket/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
+                    <Route path="/SuperMarket/about" element={<About />} />
                     <Route
-                        path="/products"
+                        path="/SuperMarket/products"
                         element={<Products cart={cart} />}
                     />
-                    <Route path="/cart" element={<Cart cart={cart} />} />
-                    <Route path="/products/:id" element={<ProductDetails />}>
+                    <Route
+                        path="/SuperMarket/cart"
+                        element={<Cart cart={cart} />}
+                    />
+                    <Route
+                        path="/SuperMarket/products/:id"
+                        element={<ProductDetails />}
+                    >
                         <Route
                             path=""
                             element={<ProductDetailInfo cart={cart} />}
