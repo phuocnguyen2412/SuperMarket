@@ -23,6 +23,7 @@ export default function Navbar(props) {
                     <NavLink
                         className={({ isActive }) => (isActive ? "active" : "")}
                         to="/SuperMarket/"
+                        end
                     >
                         Home
                     </NavLink>
