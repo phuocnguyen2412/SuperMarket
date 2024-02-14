@@ -14,7 +14,7 @@ export default function Navbar(props) {
 
     return (
         <nav className="navbar">
-            <NavLink to="/" className="nav-brand">
+            <NavLink to="/SuperMarket/" className="nav-brand">
                 SuperM
             </NavLink>
 
@@ -22,7 +22,7 @@ export default function Navbar(props) {
                 <li className="nav-item">
                     <NavLink
                         className={({ isActive }) => (isActive ? "active" : "")}
-                        to="/"
+                        to="/SuperMarket/"
                     >
                         Home
                     </NavLink>
