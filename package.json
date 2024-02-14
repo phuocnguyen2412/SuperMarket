@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/phuocnguyen2412/Learning-React/SuperMarket",
+    "homepage": "https://github.com/phuocnguyen2412/SuperMarket",
     "name": "supermarket",
     "private": true,
     "version": "0.0.0",
@@ -13,6 +13,8 @@
         "deploy": "gh-pages -d build"
     },
     "dependencies": {
+        "@stripe/react-stripe-js": "^2.5.0",
+        "@stripe/stripe-js": "^3.0.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.22.0"
