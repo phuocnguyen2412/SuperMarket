@@ -25,7 +25,7 @@ function App() {
             handleAddCartItem: function (newCartItem) {
                 setCart((prevCart) => {
                     if (isExistingItem(prevCart.CartItems, newCartItem)) {
-                        console.log(1);
+                        
                         // Nếu sản phẩm đã tồn tại, tăng quantity lên 1
                         const updatedCart = prevCart.CartItems.map((cartItem) =>
                             cartItem.id === newCartItem.id
@@ -35,7 +35,7 @@ function App() {
                                   }
                                 : cartItem
                         );
-                        console.log(updatedCart);
+                        
                         return {
                             ...prevCart,
                             CartItems: updatedCart,
