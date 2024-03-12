@@ -9,7 +9,7 @@ export default function ProductDetailInfo(props) {
                 {context.description} sold at <strong>${context.price}</strong>{" "}
                 per piece.
             </p>
-            <Button onClick={() => props.cart.handleAddCartItem(context.id)}>
+            <Button onClick={() => props.cart.handleAddCartItem(context)}>
                 ${context.price}
             </Button>
         </>
